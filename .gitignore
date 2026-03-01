@@ -18,6 +18,8 @@ prisma/*.db-journal
 
 # Generated images (user data — stays on server, too large for git)
 public/history/
+public/*.png
+public/regenerated-*.png
 
 # macOS
 .DS_Store
