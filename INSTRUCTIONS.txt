@@ -1,0 +1,18 @@
+HOW TO RUN YAVE STUDIO
+
+1. SECURITY WARNING "Unidentified Developer" or "Cannot Verify":
+   ------------------------------------------------------------
+   Apple's security blocks scripts created on other computers by default.
+   To bypass this (you only need to do it once):
+   
+   👉 RIGHT-CLICK (Control + Click) the "start-yave.command" file.
+   👉 Select "Open" from the menu.
+   👉 A popup will appear. Click "Open" in that popup.
+
+   (If you double-click normally, it will just block you. You MUST Right-Click -> Open).
+
+
+2. IF IT CLOSES IMMEDIATELY:
+   -------------------------
+   This usually means Node.js is not installed.
+   Please download and install the "LTS" version from: https://nodejs.org/

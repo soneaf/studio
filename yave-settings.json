@@ -1,0 +1,241 @@
+{
+  "outputFolder": "/Users/stevenfatone/Downloads/Yave AI Images/",
+  "autoSave": true,
+  "customBottles": [
+    {
+      "id": "custom-1767035516093",
+      "name": "Don Julio",
+      "sku": "custom-1767035516093",
+      "colorDescription": "custom",
+      "bottlePath": "/bottles/custom-1767035516093.png",
+      "isCustom": true,
+      "customDescription": "Don Julio bottles vary by expression but are known for elegance, often tall and slender, with distinctive features like the iconic 1942's tall, dark brown, agave-shaped bottle with a cork/wood stopper, while other varieties like Reposado and Añejo offer golden hues from barrel aging, all emphasizing premium quality, fine details, and Mexican heritage in their design and packaging",
+      "heightCategory": "short"
+    },
+    {
+      "id": "custom-1767075514119",
+      "name": "1800 Cristalino Tequila",
+      "sku": "custom-1767075514119",
+      "colorDescription": "custom",
+      "bottlePath": "/bottles/custom-1767075514119.png",
+      "isCustom": true,
+      "customDescription": "The 1800 Cristalino Tequila bottle is a distinctive, clear, pyramid-shaped glass with textured, diamond-like facets, housing a crystal-clear Añejo tequila that offers the complexity of aged tequila with the smoothness of a silver, thanks to its aging in American/French oak and Port wine casks, followed by a special filtration to remove color while retaining flavor. It typically comes in a 750ml size with 40% ABV (80 Proof) and is known for its elegant, Instagram-worthy look, making it a premium sipping tequila. ",
+      "heightCategory": "tall"
+    },
+    {
+      "id": "custom-1767114563695",
+      "name": "Patrón",
+      "sku": "custom-1767114563695",
+      "colorDescription": "custom",
+      "bottlePath": "/bottles/custom-1767114563695.png",
+      "isCustom": true,
+      "customDescription": "Patrón bottles are known for their elegant, handcrafted design, often featuring thick glass, distinctive shapes (like the classic Silver), hand-etched labels, and prominent corks or metallic stoppers, reflecting their premium status as 100% Blue Weber Agave tequila, with Silver being crystal clear, smooth, and offering notes of cooked agave, citrus, and pepper, while Reposado adds oak and Añejo brings deeper, smoky sweetness from barrel aging. ",
+      "heightCategory": "short"
+    }
+  ],
+  "generalProducts": [
+    {
+      "id": "prod-1767065453754",
+      "name": "Think Coffee",
+      "description": "Pouch coffee",
+      "imagePath": "/products/prod-think-coffee-1767065453753.png"
+    },
+    {
+      "id": "prod-1767074926714",
+      "name": "Yoo-Hoo ",
+      "description": "Yoo-Hoo Glass bottle. High gloss bottle",
+      "imagePath": "/products/prod-yoo-hoo--1767074926714.png",
+      "variants": [
+        {
+          "id": "var-1767114845414",
+          "name": "right side",
+          "imagePath": "/products/variants/variant-prod-1767074926714-right-side-1767114845413.png"
+        },
+        {
+          "id": "var-1767114855811",
+          "name": "left side",
+          "imagePath": "/products/variants/variant-prod-1767074926714-left-side-1767114855811.png"
+        }
+      ]
+    },
+    {
+      "id": "prod-1767168682792",
+      "name": "Nike Basketball",
+      "description": "Deep channels allow for optimum ball control\r\nSoft-touch exterior\r\nDurable exterior made for all types of courts\r\nFor indoor or outdoor play",
+      "imagePath": "/products/prod-nike-basketball-1767168682790.png",
+      "variants": [
+        {
+          "id": "var-1767168699402",
+          "name": "side view",
+          "imagePath": "/products/variants/variant-prod-1767168682792-side-view-1767168699402.png"
+        }
+      ]
+    },
+    {
+      "id": "prod-1767317689241",
+      "name": "Madone",
+      "description": "glass jar with a black lid. The jar holds red pasta sauce.\r\nLabel says:\r\nMadone\r\nITALIAN-AMERICAN\r\nREAL\r\nSAUCE\r\n[in a jar]\r\nMARINARA\r\nNET WT. 24oz (11b 80z) 680g",
+      "imagePath": "/products/prod-madone-1767317689240.png"
+    },
+    {
+      "id": "prod-1767318345465",
+      "name": "A Sweets Freeze Dried Candy",
+      "description": "Bag of freeze-dried candy rainbow candies",
+      "imagePath": "/products/prod-a-sweets-freeze-dried-candy-1767318345465.png",
+      "variants": [
+        {
+          "id": "var-1767318370692",
+          "name": "Tart Bits",
+          "imagePath": "/products/variants/variant-prod-1767318345465-tart-bits-1767318370691.png"
+        },
+        {
+          "id": "var-1767318388719",
+          "name": "Air Pops",
+          "imagePath": "/products/variants/variant-prod-1767318345465-air-pops-1767318388719.png"
+        },
+        {
+          "id": "var-1767318401578",
+          "name": "Lemon Blast",
+          "imagePath": "/products/variants/variant-prod-1767318345465-lemon-blast-1767318401578.png"
+        }
+      ]
+    },
+    {
+      "id": "prod-1767384274564",
+      "name": "Twinkies",
+      "description": "Hostess Twinkies baking set box",
+      "imagePath": "/products/prod-twinkies-1767384274560.png",
+      "variants": [
+        {
+          "id": "var-1767384288822",
+          "name": "Right",
+          "imagePath": "/products/variants/variant-prod-1767384274564-right-1767384288820.png"
+        },
+        {
+          "id": "var-1767384301996",
+          "name": "Top",
+          "imagePath": "/products/variants/variant-prod-1767384274564-top-1767384301994.png"
+        }
+      ]
+    },
+    {
+      "id": "prod-1767390327962",
+      "name": "Fendi Bag",
+      "description": "This is an authentic FENDI Denim Effect Fabric Jacquard FF Vitello Grace Medium Mamma Baguette in Dark Blue. This shoulder bag is crafted blue and dark blue denim with a woven FF logo. The bag features a blue leather top handle, optional blue leather shoulder strap and matching cinch cords. The crossover flap opens with a blue leather Fendi FF logo clasp to a dark blue denim interior.",
+      "imagePath": "/products/prod-fendi-bag-1767390327960.png"
+    },
+    {
+      "id": "prod-1768333105899",
+      "name": "Rose Milk Tea Floral",
+      "description": "FL Master Homemade Donuts INC",
+      "imagePath": "/products/prod-rose-milk-tea-floral-1768333105897.png"
+    },
+    {
+      "id": "prod-1768337721504",
+      "name": "Cake Number 2 ",
+      "description": "FL Master Homemade Donuts INC",
+      "imagePath": "/products/prod-cake-number-2--1768337721503.png",
+      "clientId": "client-1768337674432"
+    },
+    {
+      "id": "prod-1768385716880",
+      "name": "Chainsaw",
+      "description": "Tree Timber LLC",
+      "imagePath": "/products/prod-chainsaw-1768385716879.png",
+      "clientId": "client-1768337674432"
+    },
+    {
+      "id": "prod-1769962746705",
+      "name": "Tillamook",
+      "description": "Cheese",
+      "imagePath": "/products/prod-tillamook-1769962746703.png"
+    },
+    {
+      "id": "prod-1769964383740",
+      "name": "AMARETTO",
+      "description": "bottle \r\n",
+      "imagePath": "/products/prod-amaretto-1769964383739.png"
+    },
+    {
+      "id": "prod-1769964401892",
+      "name": "Cream",
+      "description": "Can",
+      "imagePath": "/products/prod-cream-1769964401890.png"
+    },
+    {
+      "id": "prod-1770827440195",
+      "name": "Boot",
+      "description": "Pink Boot",
+      "imagePath": "/products/prod-boot-1770827440195.png"
+    }
+  ],
+  "photoShootAssets": [
+    {
+      "id": "asset-1767315718861",
+      "name": "Desk",
+      "imagePath": "/photoshoot-assets/asset-desk-1767315718860.png"
+    },
+    {
+      "id": "asset-1767316545915",
+      "name": "Circle Wood Podium",
+      "imagePath": "/photoshoot-assets/asset-circle-wood-podium-1767316545912.png"
+    },
+    {
+      "id": "asset-1767323689768",
+      "name": "Tree",
+      "imagePath": "/photoshoot-assets/asset-tree-1767323689766.png"
+    }
+  ],
+  "fileNameBuilder": [
+    {
+      "type": "Product Name",
+      "value": "PRODUCT_NAME"
+    },
+    {
+      "type": "Space",
+      "value": " "
+    },
+    {
+      "type": "Date",
+      "value": "DATE"
+    },
+    {
+      "type": "Nothing",
+      "value": ""
+    },
+    {
+      "type": "Nothing",
+      "value": ""
+    },
+    {
+      "type": "Nothing",
+      "value": ""
+    }
+  ],
+  "brandPresets": [
+    {
+      "title": "Bag",
+      "subtitle": "Custom Brand Preset",
+      "emoji": "🔥",
+      "mode": "studio",
+      "settings": {
+        "camera": "disposable",
+        "lighting": "moody-bar",
+        "background": "custom",
+        "countertop": "custom",
+        "angle": "hero"
+      },
+      "id": "preset-1768163564372"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client-1768235003649",
+      "name": "Think Coffee"
+    },
+    {
+      "id": "client-1768337674432",
+      "name": "Facebook"
+    }
+  ]
+}

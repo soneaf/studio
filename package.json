@@ -1,0 +1,84 @@
+{
+  "name": "web",
+  "version": "0.1.2",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3005",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3005 && electron .\"",
+    "dist": "npm run build && cp .env.local .next/standalone/.env || true && cp -r public .next/standalone/public && mkdir -p .next/standalone/.next/static && cp -r .next/static/* .next/standalone/.next/static/ && rm -rf .next/standalone/node_modules && cp -r node_modules .next/standalone/node_modules && electron-builder"
+  },
+  "build": {
+    "appId": "com.yave.app",
+    "productName": "Content Creation Studio",
+    "directories": {
+      "output": "dist_electron",
+      "buildResources": "build"
+    },
+    "files": [
+      "electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": ".next/standalone",
+        "to": "server",
+        "filter": [
+          "**/*",
+          "!dist_electron",
+          "!dist_electron/**/*",
+          "!build",
+          "!electron",
+          "!.next",
+          "!.git"
+        ]
+      },
+      {
+        "from": "prisma/dev.db",
+        "to": "prisma/dev.db"
+      }
+    ],
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.lifestyle",
+      "icon": "build/icon.png",
+      "entitlements": "electron/entitlements.mac.plist",
+      "entitlementsInherit": "electron/entitlements.mac.plist",
+      "identity": "-"
+    },
+    "dmg": {
+      "window": {
+        "width": 540,
+        "height": 380
+      }
+    }
+  },
+  "dependencies": {
+    "@google/genai": "^1.42.0",
+    "@imgly/background-removal": "^1.7.0",
+    "@prisma/client": "^5.19.1",
+    "lucide-react": "^0.562.0",
+    "next": "^16.1.6",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^9.2.1",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "prisma": "^5.19.1",
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5",
+    "wait-on": "^9.0.3"
+  }
+}

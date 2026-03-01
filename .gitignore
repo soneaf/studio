@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript cache
+tsconfig.tsbuildinfo
+
+# Environment variables (contains API keys — never commit)
+.env.local
+.env*.local
+
+# Database (user data — stays on server)
+prisma/dev.db
+prisma/*.db-journal
+
+# Generated images (user data — stays on server, too large for git)
+public/history/
+
+# macOS
+.DS_Store
+
+# Electron build output
+dist_electron/
+
+# Claude session files
+.claude/
+.playwright-mcp/
+
+# Logs
+*.log
